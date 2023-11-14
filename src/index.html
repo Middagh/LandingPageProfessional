@@ -31,7 +31,7 @@
                         <a class="nav-link" href="#">Service</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About us</a>
+                        <a class="nav-link" href="#">FAQs</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Contact</a>
@@ -45,7 +45,7 @@
         <div class="container mt-5">
             <div class="row">
                 <div class="col-md-6">
-                    <img src="../assets/images/carrusel1.jpeg" class="img-fluid" alt="Bienvenida">
+                    <img src="../assets/images/MainPhoto.jpg" class="img-fluid" alt="Bienvenida">
                 </div>
                 <div class="col-md-6">
                     <h1>Welcome to our World of Possibilities!</h1>
@@ -64,7 +64,7 @@
         <div class="card-group">
             <!--Card 1-->
             <div class="card">
-                <img src="/assets/images/carrusel2.jpeg" class="card-img-top" alt="...">
+                <img src="/assets/images/HandShakeCard.jpeg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Explore the Future</h5>
                     <p class="card-text">"Step into the future with [Your Company]. Our cutting-edge technologies and
@@ -101,7 +101,7 @@
             </div>
             <!--Card 2-->
             <div class="card">
-                <img src="/assets/images/carrusel1.jpeg" class="card-img-top" alt="...">
+                <img src="/assets/images/BookCard.jpeg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Unleash Creativity</h5>
                     <p class="card-text">Discover boundless creativity with [Your Company]. Our team is dedicated to
@@ -191,69 +191,87 @@
         </section>
         </br>
     </section>
-    <!--Acordeon-->
+    <!--Accordion-->
     <section>
+        <h2>Frequently Asked Questions</h2>
         <div class="accordion" id="accordionExample">
+            <!--Accordion1-->
             <div class="accordion-item">
                 <h2 class="accordion-header" id="headingOne">
                     <button class="accordion-button" type="button" data-bs-toggle="collapse"
                         data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                        Accordion Item #1
+                        What types of products or services do you offer?
                     </button>
                 </h2>
                 <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
                     data-bs-parent="#accordionExample">
                     <div class="accordion-body">
-                        <strong>This is the first item's accordion body.</strong> It is shown by default, until the
-                        collapse plugin adds the appropriate classes that we use to style each element. These classes
-                        control the overall appearance, as well as the showing and hiding via CSS transitions. You can
-                        modify any of this with custom CSS or overriding our default variables. It's also worth noting
-                        that just about any HTML can go within the <code>.accordion-body</code>, though the transition
-                        does limit overflow.
+                        <strong>Discover our diverse range of offerings</strong> , from cutting-edge products to
+                        personalized services tailored to meet
+                        your unique
+                        needs.
                     </div>
                 </div>
             </div>
+            <!--Accordion2-->
             <div class="accordion-item">
                 <h2 class="accordion-header" id="headingTwo">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                         data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                        Accordion Item #2
+                        How can I get in touch with your customer support team?
                     </button>
                 </h2>
                 <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                     data-bs-parent="#accordionExample">
                     <div class="accordion-body">
-                        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the
-                        collapse plugin adds the appropriate classes that we use to style each element. These classes
-                        control the overall appearance, as well as the showing and hiding via CSS transitions. You can
-                        modify any of this with custom CSS or overriding our default variables. It's also worth noting
-                        that just about any HTML can go within the <code>.accordion-body</code>, though the transition
-                        does limit overflow.
+                        <strong>Our dedicated customer support team</strong>
+                        is here to assist you. Reach out through our contact page, and we'll respond promptly to address
+                        any inquiries or concerns.
+
                     </div>
                 </div>
             </div>
+            <!--Accordion3-->
             <div class="accordion-item">
                 <h2 class="accordion-header" id="headingThree">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                         data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                        Accordion Item #3
+                        Is there a return policy for your products?
                     </button>
                 </h2>
                 <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
                     data-bs-parent="#accordionExample">
                     <div class="accordion-body">
-                        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the
-                        collapse plugin adds the appropriate classes that we use to style each element. These classes
-                        control the overall appearance, as well as the showing and hiding via CSS transitions. You can
-                        modify any of this with custom CSS or overriding our default variables. It's also worth noting
-                        that just about any HTML can go within the <code>.accordion-body</code>, though the transition
-                        does limit overflow.
+                        <strong>Rest easy knowing that our business</strong>
+                        stands behind the quality of our products. Explore our straightforward return policy to learn
+                        about our commitment to customer satisfaction.
                     </div>
                 </div>
             </div>
         </div>
     </section>
     </br>
+    <section>
+        <div class="container mt-5">
+            <h2>Contact Us</h2>
+            <form>
+                <div class="mb-3 m-2 pt-2">
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Your Name" maxlength="30">
+                </div>
+                <div class="mb-3 m-2">
+                    <label for="email" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="email" placeholder="name@example.com" maxlength="50">
+                </div>
+                <div class="mb-3 m-2">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea class="form-control" id="message" rows="4" placeholder="Your message" maxlength="800"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary ">Submit</button>
+            </form>
+        </div>
+    </section>
+
     <!--Footer-->
     <section>
         <div class="container-fluid">

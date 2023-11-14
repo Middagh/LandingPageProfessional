@@ -18,3 +18,23 @@ body {
 .accordion-button {
     background-color: #ebebeb;
 }
+
+h2,button {
+    margin: 8px;
+}
+
+form {
+    border-radius: 5px;
+    background-color: rgba(169, 169, 169, 0.2);
+    /* Tono de gris con 50% de opacidad */
+}
+
+label {
+    display: inline-block;
+    transition: transform 0.3s ease-in-out;
+}
+
+label:hover {
+    transform: scale(1.1);
+    /* Ajusta el valor según tus preferencias */
+}

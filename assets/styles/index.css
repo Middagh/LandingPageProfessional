@@ -6,11 +6,11 @@ body {
 }
 
 footer {
-    background-color: #c4ead5; /* Color sólido para el footer */
+    background-color: #c4ead5; 
     color: #333; 
 }
 
 * img {
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombreado sutil */
-    border-radius: 5px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* shadow */
+    border-radius: 5px; /* for soft termination*/
 }

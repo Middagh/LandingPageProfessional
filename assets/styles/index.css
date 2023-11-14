@@ -5,12 +5,16 @@ body {
     font-family: 'Arial', sans-serif;
 }
 
-footer {
-    background-color: #c4ead5; 
-    color: #333; 
-}
 
 * img {
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* shadow */
-    border-radius: 5px; /* for soft termination*/
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* shadow */
+    border-radius: 5px;
+    /* for soft termination*/
+}
+
+.card,
+.accordion-item,
+.accordion-button {
+    background-color: #ebebeb;
 }

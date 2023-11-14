@@ -1,9 +1,9 @@
-Static Landing Page, this is a basic structure using Bootstrap for a professional landing page. To initialize it, you need to clone the repository and then use a Live Server to preview the webpage.
 
 
 # My Project
 
 Welcome to my  project. Here you will find important information and guides to get started.
+This is a Static Landing Page, with a basic structure using Bootstrap for a professional landing page. 
 
 ## Installation
 
